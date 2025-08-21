@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-5bf39105ca200f075a78.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Shapes",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Shapes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Shapes-Debug-72e7b224c560d4a8a418.json",
+					"name" : "Shapes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Shapes_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Shapes_autogen-Debug-afe9ea1006207b8de2f9.json",
+					"name" : "Shapes_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Shapes_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Shapes_autogen_timestamp_deps-Debug-ddfb6c8f7b8a75f9fd13.json",
+					"name" : "Shapes_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Zhanna/Documents/Shapes/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug",
+		"source" : "C:/Users/Zhanna/Documents/Shapes"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
