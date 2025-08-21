@@ -48,10 +48,10 @@ void Pane::paintEvent(QPaintEvent *event)
         painter.drawLine(p1, p2);
     }
 
-    // Живая линия от выбранной фигуры к курсору
+    // линия от выбранной фигуры к курсору
     if (currentMode == Mode::Link && linkStart != nullptr)
     {
-        painter.setPen(Qt::DashLine); // стиль пунктиром для временной линии
+        painter.setPen(Qt::DashLine);
         painter.drawLine(linkStart->getCenter(), currentMousePos);
     }
 
@@ -148,9 +148,9 @@ void Pane::mousePressEvent(QMouseEvent *event)
                     }
                 }
 
-                delete shapes[i];       // Удалить фигуру
-                shapes.remove(i);       // Удалить из списка
-                update();               // Перерисовка
+                delete shapes[i];
+                shapes.remove(i);
+                update();
                 break;
             }
         }

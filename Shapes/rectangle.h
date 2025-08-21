@@ -22,8 +22,6 @@ protected:
 private:
 
     QRectF rect;
-    //QPoint startPoint;
-    //QPoint finishPoint;
 
 
 };

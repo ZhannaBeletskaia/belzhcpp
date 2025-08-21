@@ -2,7 +2,6 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-//#include "rectangle.h"
 #include "pane.h"
 
 QT_BEGIN_NAMESPACE
@@ -39,6 +38,6 @@ private slots:
 private:
     Ui::MainWindow *ui;
 
-   // Pane *pane;
+
 };
 #endif // MAINWINDOW_H
